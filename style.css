@@ -1,0 +1,125 @@
+#name .container {
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+}
+
+#name {
+    background-image: url(./Background-5.jpg);
+    background-size: 100% 100%;
+}
+
+.profile {
+    color: white;
+    height: 100vh;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+.wdxl-lubrifont-jp-n-regular h1 {
+  font-family: "WDXL Lubrifont JP N", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 90px;
+}
+
+.wdxl-lubrifont-jp-n-regular {
+  font-family: "WDXL Lubrifont JP N", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+    flex-basis: 100%;
+}
+
+#About {
+    background-color: rgb(255, 234, 0);
+}
+
+#About .container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    align-content: center;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+    color: rgb(28, 171, 193);
+    flex-wrap: wrap;
+}
+
+#About .container img {
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    max-width: 100%;
+}
+
+
+
+#About .container h2 {
+    margin: 50px 0px;
+    color: rgb(255, 0, 81);
+    font-weight: 700;
+}
+
+
+
+.darumadrop-one-regular {
+  font-family: "Darumadrop One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+#skills {
+    display: block;
+    text-align: center;
+    background-color: aliceblue;
+}
+#skills h2 {
+    margin: 30px 0px;
+    padding-bottom: 5px;
+    padding-top: 30px;
+    font-size: 40px;
+}
+
+#skills .box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+    row-gap: 50px;
+    width: 50%;
+    text-align: left;
+    margin: 100px auto 100px auto;
+    justify-items: center;
+    padding-bottom: 30px;
+}
+
+.cat img {
+  width: 100%;
+  height: auto;  /* keeps aspect ratio */
+  display: block; /* removes inline gap below image */
+  max-width: 100%; /* extra safety */
+}
+
+#Projects .container h3 {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
